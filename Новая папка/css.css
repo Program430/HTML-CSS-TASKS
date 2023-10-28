@@ -1,0 +1,48 @@
+.head_grid{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    border-bottom: 1px solid black;
+}
+
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: antiquewhite;
+}
+
+.items1, .items2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 20px;
+}
+
+.about_event{
+
+    margin-bottom: 100px;
+}
+
+.about_event_1{
+    padding: 10px;
+    padding-left: 40px;
+    
+}
+
+.footer p{
+    display: inline;
+}
+
+.footer0{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.footer2{
+    display:flex;  
+    justify-content:flex-end;
+    padding-right: 100px;
+}
+
+main{
+    background-color:beige;
+}
