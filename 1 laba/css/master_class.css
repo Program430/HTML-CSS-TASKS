@@ -1,0 +1,146 @@
+button{
+    background: #A1B29F;
+    width: 245px;
+    height: 60px;
+    color: #F6F6F6;
+    font-size: 16px;
+    font-family: Open Sans;
+}
+
+.image-container{
+   background-image: url("../img/img_master_class/masterMain.png");
+   padding-top:150px;
+ 
+   text-align: center;
+}
+
+.image-container h2, .image-container button{
+   margin-bottom: 70px;
+}
+
+.standartsection{
+    padding-top: 130px;
+    padding-left: 139px; 
+    padding-right: 100px; 
+}
+
+.afterbefore{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.afterbefore *{
+    margin-top: 10px;
+    text-align: center;
+}
+.forbutton{
+    text-align: center;
+}
+
+.number{
+    width: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    border: 1px solid #666;
+    background-color: #A1B29F;
+}
+
+.numbers{
+    display: flex;
+}
+
+.numbers p{
+    padding-top: 16px;
+    padding-left: 10px;
+}
+
+.numberscontainer{
+    padding-top: 100px;
+    padding-left: 350px;
+}
+
+.line{
+    margin-left: 30px;
+    border: 0.5px solid #C4C4C4;
+    width: 0px;
+    height: 60px;
+}
+
+.blockp{
+    background-image: url("../img/img_master_class/woodBackground.png");
+    padding-top:200px;
+   text-align: center;
+   margin-top: 150px;
+   height: 508px;
+   background-size: 100% 100%;
+}
+
+.h2_white{
+    color: white;
+}
+
+.different_items_main{
+    margin-top: 230px;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+.different_items_grid{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.different_items_item{
+    display: flex;
+}
+.different_items_item2{
+    width: 100%;
+    align-self: flex-end;
+    text-align: center;
+}
+
+.different_items_item2 p, .master_pictures p{
+    margin-top: 10px;
+}
+
+.master_pictures_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 60px;
+}
+.master_pictures{
+    text-align: center;
+    width: 560px;
+}
+
+.master_class_end{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.master_class_end{
+    margin-top: 230px;
+    margin-left: 140px;
+    margin-right: 140px;
+    padding-bottom: 250px;
+}
+
+.master_class_end_item_1{
+    display: flex;
+    flex-direction:column;
+
+  justify-content: space-between;
+}
+
+.master_class_end_item_2{
+    display: flex;
+    justify-content: right;
+}
+

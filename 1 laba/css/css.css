@@ -1,0 +1,92 @@
+h2{
+    font-family: 'Tenor Sans';
+    font-size: 48px;
+}
+
+h4{
+    font-family: 'Open Sans';
+    font-size: 24px; 
+}
+
+p{
+    font-family: 'Open Sans';
+    font-size: 18px; 
+}
+
+header, footer{
+    font-family: 'Open Sans';
+    font-size: 16px; 
+    background-color: #F3EFEA;   
+}
+
+footer{
+    background: #715B4B;
+}
+
+.section4_family{
+    background: #EBEEEB;
+}
+
+.section6_offers{
+    background: #E3DACE;
+}
+
+.p-little{
+    font-size: 16px; 
+}
+
+.bold{
+    font-weight:bold;
+}
+
+body{
+    padding-left: 240px;
+    padding-right: 240px;
+    min-width: 1920px;
+}
+
+.containerhead{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 20px;
+}    
+
+.divhead {
+    display: flex;
+    justify-content:space-around;
+    padding-top: 64px;
+}
+
+#headlogo{
+    padding-top: 32px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+    background-color: #715B4B;
+    
+}
+
+.footer-main{
+    padding-left: 140px;
+    padding-right: 140px;
+    display: grid;
+    grid-template-columns: 1.5fr 3fr 1fr;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer-option{
+    display: grid;
+    grid-template-columns: 1.8fr 1fr 2fr;
+    grid-row-gap:20px;
+}
+
+.footer-option a, .footer-main p{
+    color:#F6F6F6;
+}
+
+main{
+    background-color: #F3EFEA;
+}
