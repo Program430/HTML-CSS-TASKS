@@ -1,0 +1,116 @@
+body{
+    font-family: "Roboto", "Arial", sans-serif;
+    background-color: #E2EDFE;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+header{
+    background-color: rgb(47,128,237);
+    padding-bottom: 16px;
+    padding-left: 20px;
+    font-size: 22px;
+    color: white;
+    border-radius: 2px;
+}
+
+main{
+    padding-top: 60px;
+    margin-left: 56px;
+    margin-right: 56px;
+}
+
+.section1-div1{
+    width: 380px;
+    background-color: white;
+    display: flex;
+    flex-direction:column;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 15px;
+}
+
+.section1-div1-div1{
+    display: flex;
+    gap: 10px;
+}
+
+.section1-div1-div1 input{
+    width: 170px;
+    color: black;
+    display: block;
+    border: 1px solid #bdbdbd;
+    border-radius: 8px;
+    color: #212529;
+    background-color: #fff;
+    text-indent: 10px;
+    font-size: 14px;
+
+}
+
+.section1-div1-div1 button{
+    padding: 9px 34px;
+     border-radius: 8px;
+     background: rgb(47,128,237);
+    color: white;
+    font-size: 16px;
+    display: block;
+
+}
+
+.section2{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.functional-option{
+    background-color: var(--primary-color);
+    display: inline-block;
+    font-size: 18px;
+    padding: 8px 20px;
+    border-radius: 8px;
+    color: var(--primary-color1);
+}
+
+.tasks{
+    display: flex;
+    flex-direction:column;
+    gap:6px;
+    margin-top: 20px;
+}
+.task{
+    padding: 16px 24px; 
+    width: 280px;
+    background-color: white;
+    border-radius: 8px;
+    border-left: 5px solid var(--primary-color);
+}
+
+.block1{
+    --primary-color: rgb(227,227,227);
+    --primary-color1:rgb(115,114,113);
+}
+
+.block2{
+    --primary-color: rgb(214,231,255); 
+    --primary-color1:rgb(81,152,241);
+}
+.block3{
+    --primary-color: rgb(215,249,224);
+    --primary-color1:rgb(140,197,129);
+}
+.block4{
+    --primary-color: rgb(251,227,227);
+    --primary-color1:rgb(216,136,134);
+}
+
+.button{
+    margin-top: 10px;
+    width: 280px;
+    color: rgb(231,221,234);
+    background-color: rgb(201,102,108);
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
