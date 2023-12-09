@@ -1,0 +1,129 @@
+.first-section{
+    background-image: url("../img/img_furnitureOrders/main.png");
+    width: 1440px;
+    height: 639px;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid black;
+}
+
+.first-section-1{
+    text-align: center;
+}
+
+.first-section-1 p{
+    color: #F6F6F6;
+    margin-bottom:5px;
+}
+
+.first-section-1 h2{
+    margin-bottom: 20px;
+    color: #F6F6F6;
+}
+
+.first-section-1 button{
+    margin-top: 45px;
+    color: black;
+    width: 328px;
+    height: 60px;
+}
+
+.order-section{
+    margin-top: 142px;
+    margin-left: 134px;
+
+}
+
+.order-section-1{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap:30px;
+}
+
+.order-section-1-1-line{
+    height: 0px;
+    width: 200px;
+    border: 1px solid #715B4B;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.order-section-2{
+    margin-top: 80px;
+    margin-left: 157px;
+    margin-right: 291px;
+    display: flex;
+    column-gap: 10px;
+    align-items:flex-end;
+}
+
+.order-section-2-2-2 *{
+    width: 103px;
+    height: 101.24px;
+}
+
+.order-section-2-2-1 *{
+    width: 818px;
+    height: 694.17px;
+}
+
+.order-section-2-common{
+    width: 30px;
+    height: 30px;
+}
+
+.order-section-2-2-2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-section-3{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: -1px;
+    border: 1px solid black;
+    margin-right: 142px;
+}
+
+.order-section-3-0{
+    border: 1px solid black;
+    padding: 0px 20px 12px 30px;
+    display: flex;
+    flex-direction:column;
+}
+
+.order-section-3-0 p{
+    font-size: 48px;
+    margin-left: auto;
+}
+
+.order-section-4 img{
+    width: 230px;
+}
+.order-section-4{
+    margin-top: 80px;
+    display: grid;
+    margin-left: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    gap: 10px;
+}
+
+.green-button button{
+    background-color: #A1B29F;
+    margin-top: 45px;
+    color: white;
+    width: 328px;
+    height: 60px;
+}
+.green-button{
+    margin-top: 80px;
+    padding-bottom: 140px;
+    display: flex;
+    justify-content: center;
+    padding-right: 141px;
+}
