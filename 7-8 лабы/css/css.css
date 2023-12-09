@@ -58,13 +58,13 @@ main{
 
 }
 
-.section2{
+.board-container{
     margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
 
-.functional-option{
+.functional-option {
     background-color: var(--primary-color);
     display: inline-block;
     font-size: 18px;
@@ -113,4 +113,14 @@ main{
     border-radius: 8px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.titleTask{
+    padding-left: 10px;
+    background-color: #bdbdbd;
+    margin-right: 100px;
+    border-radius: 8px;
+    padding-top:10px;
+    padding-bottom:10px;
+    width: 80px;
 }

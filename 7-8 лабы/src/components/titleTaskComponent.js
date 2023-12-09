@@ -1,20 +1,21 @@
 import {createElement} from '../render.js';
 
 
-function createHeaderComponentTemplate() {
-    return (
-        `<header>
+function createtitleTask() {
 
-          <h2>Список задач</h2>
+ return (`
+ <div class = "tasks">
+ <div class = "titleTask">
+  Бэклок
+ </div>
+  </div>`);
 
-        </header>`
-      );
 }
 
 
-export class HeaderComponent {
+export class TitleTaskComponent{
   getTemplate() {
-    return createHeaderComponentTemplate();
+    return createtitleTask();
   }
 
 

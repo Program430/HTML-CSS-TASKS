@@ -1,20 +1,17 @@
 import {createElement} from '../render.js';
 
 
-function createHeaderComponentTemplate() {
+function boardComponentTemplate() {
     return (
-        `<header>
-
-          <h2>Список задач</h2>
-
-        </header>`
+        `
+        <div class = "board-container"> </div>`
       );
 }
 
 
-export class HeaderComponent {
+export class BoardComponent {
   getTemplate() {
-    return createHeaderComponentTemplate();
+    return boardComponentTemplate();
   }
 
 
